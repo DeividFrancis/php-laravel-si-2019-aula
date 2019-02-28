@@ -11,4 +11,3 @@ RUN apt-get install -y libpq-dev \
 
 RUN docker-php-ext-install pdo pdo_pgsql
 RUN chmod -x /var/www/
-# CMD [ "chmod", "777", "-R", "/var/www/" ]
